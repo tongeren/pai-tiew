@@ -11,9 +11,6 @@ export default function Home() {
         <title>Pai Tiew - Begin living YOUR life</title>
         <meta name="description" content="Begin living YOUR life" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Playfair+Display:ital,wght@0,500;1,400&display=swap" rel="stylesheet" /> 
       </Head>
 
       <main className={styles.main}>
