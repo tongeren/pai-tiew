@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; 
+}
+
+@media only screen and (max-width: 75em) {
+    html {
+      font-size: 50%; 
+    } 
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #6D5D4B;
+  font-size: 1.9rem;
+  font-weight: 300;
+  line-height: 1.6; 
+}
+
+p {
+  padding-bottom: 1rem;
+}
+
+button { 
+  background: #00e32e;
+
+  &,
+  &:link,
+  &:visited {
+      display: flex;
+      text-transform: uppercase;
+      text-decoration: none;
+      position: relative;
+      height: 5.7rem;
+      padding: 0 2.5rem;
+
+      opacity: 0.8;
+
+      align-items: center;
+      justify-content: center;
+
+      border-radius: .7rem;
+      cursor: pointer;
+
+  }
+
+  &:hover {
+      transform: translateY(-.3rem);
+      box-shadow: 0 1rem 2rem rgba(black, .2);
+
+      &::after {
+          transform: scaleX(1.4) scaleY(1.6);
+          opacity: 0;
+      }
+  }
+
+  &:active,
+  &:focus {
+      outline: none;
+      transform: translateY(-.1rem);
+      box-shadow: 0 .5rem 1rem rgba(black, .2);
+  }
+}
+

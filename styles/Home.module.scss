@@ -1,0 +1,137 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* background-color: teal; */
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  background-color: red;
+  padding: 2rem 3rem;
+}
+
+.proposition {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.headers {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 2rem 0 3rem;
+  background-color: white;
+}
+
+.headline {
+  width: 100%;
+  font-family: 'Playfair Display';
+  font-weight: 500;
+  font-size: 6.5rem;
+  line-height: 6.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.subheadline {
+  font-family: 'Playfair Display';
+  font-size: 3rem;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 3.5rem;
+  padding-bottom: 2rem;
+}
+
+.introduction {
+  display: flex;
+  padding: 2rem;
+}
+
+.textblock {
+  width: 60%;
+}
+
+.introtext {
+  padding: 0 3rem 0;
+}
+
+.pictureblock {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.quote {
+  padding: 2rem 3rem;
+}
+
+.guide {
+  padding: 0 6rem;
+  align-self: flex-end;
+}
+
+.qtext {
+  font-style: italic;
+  padding-bottom: .6rem;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socialmedia {
+  display: flex;
+  width: 60%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: yellow;
+}
+
+.smbutton {
+  display: flex;
+}
+
+.alignbutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.swan {
+  display: flex;
+  // align-items: center;
+  // justify-content: center;
+  margin: 0 auto;
+}
+
+.footer {
+  width: 100%;
+  height: 25rem;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
