@@ -1,3 +1,5 @@
+$buttonsize: 3rem;
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -99,17 +101,13 @@
 }
 
 .socialmedia {
-  display: flex;
-  width: 60%;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  background-color: yellow;
+  display: grid;
+  grid-template-columns: $buttonsize $buttonsize $buttonsize $buttonsize $buttonsize;
+  grid-template-rows: $buttonsize;
+  column-gap: 4rem;
+  margin-top: 0.5rem;
 }
 
-.smbutton {
-  display: flex;
-}
 
 .alignbutton {
   display: flex;
@@ -120,8 +118,6 @@
 
 .swan {
   display: flex;
-  // align-items: center;
-  // justify-content: center;
   margin: 0 auto;
 }
 

@@ -30,7 +30,7 @@ p {
 }
 
 button { 
-  background: #00e32e;
+  // background: #00e32e;
 
   &,
   &:link,
@@ -39,15 +39,15 @@ button {
       text-transform: uppercase;
       text-decoration: none;
       position: relative;
-      height: 5.7rem;
-      padding: 0 2.5rem;
+      // height: 5.7rem;
+      // padding: 0 2.5rem;
 
       opacity: 0.8;
 
       align-items: center;
       justify-content: center;
 
-      border-radius: .7rem;
+      // border-radius: .7rem;
       cursor: pointer;
 
   }

@@ -1,8 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { SocialMedia } from '../src/components/SocialMedia/SocialMedia'
+// import { SVG } from '../src/components/SVG/SVG'
 import styles from '../styles/Home.module.scss'
 import guidePic from '../public/guide.jpg'
 import lakePic from '../public/lake.jpg'
+
 
 export default function Home() {
   return (
@@ -14,11 +17,6 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-
-        {/* <div className={styles.header}>
-          <div className={styles.logo}>Pai Tiew</div>
-          <div className={styles.menu}></div>
-        </div> */}
         
         <div className={styles.proposition}>
           <div className={styles.introduction}>
@@ -59,11 +57,7 @@ export default function Home() {
               </div>
 
               <div className={styles.center}>
-                <div className={styles.socialmedia}>
-                  <div className={styles.smbutton}>IN</div>
-                  <div className={styles.smbutton}>FB</div>
-                  <div className={styles.smbutton}>IG</div>
-                </div>
+                <SocialMedia classes={ styles.socialmedia } />
               </div>
 
             </div> {/* END PICTURE BLOCK */}
