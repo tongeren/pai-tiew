@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { Button } from '@material-ui/core'
 import { SocialMedia } from '../src/components/SocialMedia/SocialMedia'
-// import { SVG } from '../src/components/SVG/SVG'
+import { TemporaryDrawer } from '../src/components/TemporaryDrawer/TemporaryDrawer'
 import styles from '../styles/Home.module.scss'
 import guidePic from '../public/guide.jpg'
 import lakePic from '../public/lake.jpg'
@@ -17,6 +18,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <TemporaryDrawer />
         
         <div className={styles.proposition}>
           <div className={styles.introduction}>
@@ -73,10 +75,10 @@ export default function Home() {
                 Besides my copious life experience, my more than 25 year experience in applying holistic balancing techniques, and my lifelong experience with mindfulness, which I like to call heartfulness instead, I can tap into a wide variety of holistic treatment modalities to efficiently reconnect you to yourself.
               </p>
               <p> 
-                So we can faciliate and speed up your self-discovery, and leverage your inner resources, in order to quickly set you off on your own path and give you the confidence to know and to take action towards what truly makes you happy.			
+                So we can faciliate and speed up your self-discovery, and leverage your inner resources, in order to quickly set you off on your own path, and give you the confidence to know and to take action towards what truly makes you happy.			
               </p>
               <p>
-                I have a unique perspective from intimimately knowing both Asian and Western cultures and I have many different holistic treatment modalities to my disposal that are not deeply known and understood well elsewhere.
+                I have a unique perspective from intimimately knowing both Asian and Western cultures, and I have many different holistic treatment modalities to my disposal that are not deeply known and understood well elsewhere.
               </p>
               <p>
                 It is known nowadays that action precedes thought. My balancing of your heart-mind connection, so you start to be able to move more naturally and freely in life, is a more effective process than talking therapy alone. 
@@ -92,9 +94,9 @@ export default function Home() {
                 <h2 className={styles.subheadline}>Begin living YOUR life</h2>
                 <p>Book a free intake call with me to find out what I can do for you.</p>
                 <div className={styles.alignbutton}>
-                  <button className={styles.ctabutton}>
+                  <Button variant="contained" color="primary" size="large">
                     Start your new life NOW. 
-                  </button> 
+                  </Button> 
                 </div>
               </div>
             </div>

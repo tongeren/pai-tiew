@@ -1,6 +1,6 @@
 import React from 'react'
 import { SVGButton } from '../SVGButton/SVGButton'
-import styles from '../../../styles/SocialMedia.module.scss'
+import styles from './SocialMedia.module.scss'
 
 const media = [
     { sprite: "linkedin", url: "#" },

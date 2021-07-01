@@ -13,6 +13,3 @@ export const SVGButton:React.FunctionComponent<SVGButtonProps> = ({ classes, svg
         <SVG classes={ svgclasses } sprite={ sprite } />
     </div>
 )
-
-
- 
